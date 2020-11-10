@@ -15,4 +15,8 @@
         (recur (inc start) max
                (-> (get dig_list start 0) (Integer/parseInt) (Math/pow (inc start)) (int) (+ sum)))))))
 
+; 최종 함수
+(defn sum-dig-pow [a b]
+  (for [x (range a b) :when (= x (get-sum-digs-pow x))] x)
+)
 
