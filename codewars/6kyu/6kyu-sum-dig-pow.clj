@@ -1,3 +1,5 @@
+;Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!
+
 ; 숫자 분리 123 -> ["1" "2" "3"]
 (defn get-digs [dig]
   (let [str_number (str dig)]
